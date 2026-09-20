@@ -2,7 +2,7 @@ import Enum.Estado;
 
 import java.util.Objects;
 
-public class AlquilerEquipo implements Comparable<AlquilerEquipo> {
+public abstract class AlquilerEquipo implements Comparable<AlquilerEquipo> {
     private int numero;
     private static int nuevoNumero = 1;
     private String nombreCliente;

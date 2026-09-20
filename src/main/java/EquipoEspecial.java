@@ -18,7 +18,7 @@ public class EquipoEspecial  extends  AlquilerEquipo implements ServicioTecnico 
 
     @Override
     public double precioAlquiler() {
-        return 10000 + (nivelServicio*4000);
+        return (10000 + nivelServicio * 4000) * getCantidadDias();
     }
 
     @Override
