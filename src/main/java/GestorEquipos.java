@@ -13,6 +13,7 @@ public class GestorEquipos {
     public boolean nuevoEquipo(AlquilerEquipo alquiler){
         if(!listaEquipos.contains(alquiler)){
             listaEquipos.add(alquiler);
+            return true;
         }
         return false;
     }
